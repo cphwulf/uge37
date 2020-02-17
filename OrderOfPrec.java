@@ -17,6 +17,8 @@ public class OrderOfPrec
      *
      * Sæt parenteser så flg kan kompileres og resultatet bliver 19
      * int a=(int)23-9/Math.sqrt(7)
+     * Kan flg fungere som et terninge kast?
+     * int val =(int) Math.random()*6+1
      *
      */
     // start sådan her (og den her er ikke korrekt):
