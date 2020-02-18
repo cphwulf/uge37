@@ -5,28 +5,18 @@ public class OrderOfPrec
     /*
      * OPGAVE: 
      *
-     * 1) ret så flg. bliver korrekt (brug printf, parenteser, typecasting etc)
-     * 0.3333333333333333 = 1/3; //kun vha println
-     * 0.33333334 = 1/3; //kun vha println
-     * 0.33 = 1/3; 
-     * 144 = 12*2+2*4-1
-     * 6 = 14/7*2+30/5+1
-     * 7.55 = Math.round(Math.sqrt(57)*100/100.0);
-     * 0 = 89 + 1 % 5 / (10 % 6)
-     * 11 = 17%(10+4)
+     * Ret så flg. bliver korrekt (uden brug af  printf)
      *
-     * Sæt parenteser så flg kan kompileres og resultatet bliver 19
-     * int a=(int)23-9/Math.sqrt(7)
-     * Kan flg fungere som et terninge kast?
+     * int x = 12*2+2*4-1 // vha parenteser så x er 144
+     * int x = 14/7*2+30/5+1 // vha parenteser så x er 6
+     * double y = Math.sqrt(57); // så y bliver 7.55 (altså rundet af til to decimaler, ikke bare printf)
+     * int x = 89 + 1 % 5 / (10 % 6); // vha parenteser så x bliver 0
+     * int x = 17%(10+4); // så x bliver 11
+     * int a=(int)23-9/Math.sqrt(7); // vha parenteser på resultatet bliver 19
+     *
+     * Kan flg fungere som et realistisk terningkast?
      * int val =(int) Math.random()*6+1
      *
      */
-    // start sådan her (og den her er ikke korrekt):
-    double myD = 1/3;
-    // TODO:resten 
-
-    // slut sådan her:
-    System.out.println(myD);
-    // TODO:resten af print
   }
 }
